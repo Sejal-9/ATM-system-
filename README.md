@@ -1,14 +1,40 @@
 # ATM-system-
-The ATM system allows users to register, log in, deposit, withdraw, transfer money, and view account statements. User data and transaction history are stored in text files. Features include:
+This ATM system is developed in Java and includes core banking functionalities like:
 
-Registration: Users create an account with personal details.
-Login: Users authenticate with mobile number and PIN.
-Deposit/Withdraw: Users can add or withdraw funds.
-Transfer: Money can be transferred between accounts.
-Statement: Users can view balance and recent transactions.
-Data is stored and updated in files, simulating a real-world ATM experience.
+-Customer Registration
+-Login and Authentication
+-Deposit Money
+-Withdraw Money
+-View Account Statements
 
+The project effectively implements Java 8 features, OOP principles, exception handling, collections, streams, and basic multithreading to ensure performance and scalability.
 
+Features :-
+========
+1)Java 8 Enhancements: Utilizes Streams, Lambda Expressions, and Optional to improve code clarity.
+
+2)OOP Principles: Introduced User and AccountService classes for better structure.
+
+3)Exception Handling: Ensures robust error management for invalid inputs and system issues.
+
+4)Thread Safety: Utilizes ConcurrentHashMap for improved concurrency control.# Simulated-ATM-System
+
+Usage:-
+========
+
+1)Run the program.
+
+2)Select one of the options:
+
+3)Register a new customer
+
+4)Login to your account
+
+5)Deposit money
+
+6)Withdraw money
+
+7)View account statement
 
 
 
